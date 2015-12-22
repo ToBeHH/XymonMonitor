@@ -1,0 +1,263 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* .bzr/
+* .bzr/README
+* .bzr/branch-format
+* .bzr/branch/
+* .bzr/branch/branch.conf
+* .bzr/branch/format
+* .bzr/branch/last-revision
+* .bzr/branch/tags
+* .bzr/checkout/
+* .bzr/checkout/conflicts
+* .bzr/checkout/dirstate
+* .bzr/checkout/format
+* .bzr/repository/
+* .bzr/repository/format
+* .bzr/repository/indices/
+* .bzr/repository/indices/1a6a81080db00eb2cf6e4e079f508bb3.iix
+* .bzr/repository/indices/1a6a81080db00eb2cf6e4e079f508bb3.rix
+* .bzr/repository/indices/1a6a81080db00eb2cf6e4e079f508bb3.six
+* .bzr/repository/indices/1a6a81080db00eb2cf6e4e079f508bb3.tix
+* .bzr/repository/indices/2ef8d242398bea3a74092101f927c121.iix
+* .bzr/repository/indices/2ef8d242398bea3a74092101f927c121.rix
+* .bzr/repository/indices/2ef8d242398bea3a74092101f927c121.six
+* .bzr/repository/indices/2ef8d242398bea3a74092101f927c121.tix
+* .bzr/repository/indices/596b0d5196dd959560656a182b7e395e.iix
+* .bzr/repository/indices/596b0d5196dd959560656a182b7e395e.rix
+* .bzr/repository/indices/596b0d5196dd959560656a182b7e395e.six
+* .bzr/repository/indices/596b0d5196dd959560656a182b7e395e.tix
+* .bzr/repository/pack-names
+* .bzr/repository/packs/
+* .bzr/repository/packs/1a6a81080db00eb2cf6e4e079f508bb3.pack
+* .bzr/repository/packs/2ef8d242398bea3a74092101f927c121.pack
+* .bzr/repository/packs/596b0d5196dd959560656a182b7e395e.pack
+* .bzrignore
+* default.properties
+* icon_licenses/
+* icon_licenses/VeryIcon.com.url
+* icon_licenses/VeryIcon.txt
+* icon_licenses/license.txt
+* icon_licenses/png/
+* icon_licenses/png/Add Appointment.png
+* icon_licenses/png/Add Green Button.png
+* icon_licenses/png/Add To Favorite.png
+* icon_licenses/png/Add.png
+* icon_licenses/png/Appointment Cool.png
+* icon_licenses/png/Appointment Urgent.png
+* icon_licenses/png/Audio CD.png
+* icon_licenses/png/Audio Document.png
+* icon_licenses/png/Backup Green Button.png
+* icon_licenses/png/Bandwidth.png
+* icon_licenses/png/Blue Ball.png
+* icon_licenses/png/CD.png
+* icon_licenses/png/Cancel Red Button.png
+* icon_licenses/png/Clear Green Button.png
+* icon_licenses/png/Coherence.png
+* icon_licenses/png/Desktop.png
+* icon_licenses/png/Discussion.png
+* icon_licenses/png/Document.png
+* icon_licenses/png/Donate.png
+* icon_licenses/png/Eject Blue Button.png
+* icon_licenses/png/Export To Audio Document.png
+* icon_licenses/png/Export To Document.png
+* icon_licenses/png/Export To Movie Document.png
+* icon_licenses/png/Export To Picture Document.png
+* icon_licenses/png/Favorite.png
+* icon_licenses/png/Forward Mail.png
+* icon_licenses/png/Fullscreen.png
+* icon_licenses/png/Gear Alt.png
+* icon_licenses/png/Gear.png
+* icon_licenses/png/Get Document.png
+* icon_licenses/png/Get Info Blue Button.png
+* icon_licenses/png/Get Info Purple Button.png
+* icon_licenses/png/Get Mail.png
+* icon_licenses/png/Green Ball.png
+* icon_licenses/png/Grey Ball.png
+* icon_licenses/png/Help Blue Button.png
+* icon_licenses/png/Help Purple Button.png
+* icon_licenses/png/History.png
+* icon_licenses/png/Import Audio Document.png
+* icon_licenses/png/Import Document.png
+* icon_licenses/png/Import Movie Document.png
+* icon_licenses/png/Import Picture Document.png
+* icon_licenses/png/Internet History.png
+* icon_licenses/png/Mail.png
+* icon_licenses/png/Menu Item.png
+* icon_licenses/png/Menu.png
+* icon_licenses/png/Minus Green Button.png
+* icon_licenses/png/Minus Red Button.png
+* icon_licenses/png/Movie CD.png
+* icon_licenses/png/Movie Document.png
+* icon_licenses/png/Mr. Bomb.png
+* icon_licenses/png/Network.png
+* icon_licenses/png/New Document.png
+* icon_licenses/png/New Mail.png
+* icon_licenses/png/Orange Ball.png
+* icon_licenses/png/Pause All.png
+* icon_licenses/png/Pause Blue Button.png
+* icon_licenses/png/Pause Green Button.png
+* icon_licenses/png/Pause.png
+* icon_licenses/png/Picture CD.png
+* icon_licenses/png/Picture Document.png
+* icon_licenses/png/Play All.png
+* icon_licenses/png/Play Blue Button.png
+* icon_licenses/png/Play Green Button.png
+* icon_licenses/png/Play.png
+* icon_licenses/png/Plugin Green Button.png
+* icon_licenses/png/Purple Ball.png
+* icon_licenses/png/Record Button.png
+* icon_licenses/png/Record Red Button.png
+* icon_licenses/png/Red Ball.png
+* icon_licenses/png/Remove Appointment.png
+* icon_licenses/png/Remove Document.png
+* icon_licenses/png/Remove.png
+* icon_licenses/png/Rename Document.png
+* icon_licenses/png/Run.png
+* icon_licenses/png/Send Document.png
+* icon_licenses/png/Send Mail.png
+* icon_licenses/png/Smiley Blue.png
+* icon_licenses/png/Smiley Sad Blue.png
+* icon_licenses/png/Smiley Sad.png
+* icon_licenses/png/Smiley Star Pink.png
+* icon_licenses/png/Smiley Star Sad.png
+* icon_licenses/png/Smiley Star.png
+* icon_licenses/png/Smiley.png
+* icon_licenses/png/Spotlight Blue Button.png
+* icon_licenses/png/Star.png
+* icon_licenses/png/Stop All.png
+* icon_licenses/png/Stop Green Button.png
+* icon_licenses/png/Stop Red Button.png
+* icon_licenses/png/Stop.png
+* icon_licenses/png/Terminal.png
+* icon_licenses/png/Transfer Document.png
+* icon_licenses/png/Transfer.png
+* icon_licenses/png/Trash Empty.png
+* icon_licenses/png/Trash Full.png
+* icon_licenses/png/Universal Binary.png
+* icon_licenses/png/Unread Mail Alt.png
+* icon_licenses/png/Unread Mail.png
+* icon_licenses/png/User.png
+* icon_licenses/png/Users.png
+* icon_licenses/png/Web Browser.png
+* icon_licenses/png/Write Document.png
+* icon_licenses/png/Yellow Ball.png
+* icon_licenses/png/iChat Alt.png
+* icon_licenses/png/iChat.png
+* public/
+* public/XymonMonitor.apk
+* public/descr-de.txt
+* public/descr-en.txt
+* pythonCode/
+* pythonCode/Hobbit Desktop-Monitor/
+* pythonCode/Hobbit Desktop-Monitor/nbproject/
+* pythonCode/Hobbit Desktop-Monitor/nbproject/private/
+* pythonCode/Hobbit Desktop-Monitor/nbproject/private/private.properties
+* pythonCode/Hobbit Desktop-Monitor/nbproject/private/private.xml
+* pythonCode/Hobbit Desktop-Monitor/nbproject/project.properties
+* pythonCode/Hobbit Desktop-Monitor/nbproject/project.xml
+* pythonCode/Hobbit Desktop-Monitor/src/
+* pythonCode/Hobbit Desktop-Monitor/src/clock/
+* pythonCode/Hobbit Desktop-Monitor/src/clock/dg0.png
+* pythonCode/Hobbit Desktop-Monitor/src/clock/dg1.png
+* pythonCode/Hobbit Desktop-Monitor/src/clock/dg2.png
+* pythonCode/Hobbit Desktop-Monitor/src/clock/dg3.png
+* pythonCode/Hobbit Desktop-Monitor/src/clock/dg4.png
+* pythonCode/Hobbit Desktop-Monitor/src/clock/dg5.png
+* pythonCode/Hobbit Desktop-Monitor/src/clock/dg6.png
+* pythonCode/Hobbit Desktop-Monitor/src/clock/dg7.png
+* pythonCode/Hobbit Desktop-Monitor/src/clock/dg8.png
+* pythonCode/Hobbit Desktop-Monitor/src/clock/dg9.png
+* pythonCode/Hobbit Desktop-Monitor/src/clock/dgc.png
+* pythonCode/Hobbit Desktop-Monitor/src/hobbitDesktopMonitor.py
+* pythonCode/Hobbit Desktop-Monitor/src/hobbittray.config
+* pythonCode/Hobbit Desktop-Monitor/src/tray/
+* pythonCode/Hobbit Desktop-Monitor/src/tray/green.png
+* pythonCode/Hobbit Desktop-Monitor/src/tray/purple.png
+* pythonCode/Hobbit Desktop-Monitor/src/tray/red.png
+* pythonCode/Hobbit Desktop-Monitor/src/tray/unknown.png
+* pythonCode/Hobbit Desktop-Monitor/src/tray/yellow.png
+* pythonCode/hobbit-tray/
+* pythonCode/hobbit-tray/Original/
+* pythonCode/hobbit-tray/Original/README
+* pythonCode/hobbit-tray/Original/arrow.gif
+* pythonCode/hobbit-tray/Original/bkg-blue.gif
+* pythonCode/hobbit-tray/Original/bkg-clear.gif
+* pythonCode/hobbit-tray/Original/bkg-green.gif
+* pythonCode/hobbit-tray/Original/bkg-purple.gif
+* pythonCode/hobbit-tray/Original/bkg-red.gif
+* pythonCode/hobbit-tray/Original/bkg-yellow.gif
+* pythonCode/hobbit-tray/Original/blue-ack.gif
+* pythonCode/hobbit-tray/Original/blue-recent.gif
+* pythonCode/hobbit-tray/Original/blue.gif
+* pythonCode/hobbit-tray/Original/clear-recent.gif
+* pythonCode/hobbit-tray/Original/clear.gif
+* pythonCode/hobbit-tray/Original/favicon-blue.ico
+* pythonCode/hobbit-tray/Original/favicon-clear.ico
+* pythonCode/hobbit-tray/Original/favicon-green.ico
+* pythonCode/hobbit-tray/Original/favicon-purple.ico
+* pythonCode/hobbit-tray/Original/favicon-red.ico
+* pythonCode/hobbit-tray/Original/favicon-unknown.ico
+* pythonCode/hobbit-tray/Original/favicon-yellow.ico
+* pythonCode/hobbit-tray/Original/green-recent.gif
+* pythonCode/hobbit-tray/Original/green.gif
+* pythonCode/hobbit-tray/Original/purple-ack.gif
+* pythonCode/hobbit-tray/Original/purple-recent.gif
+* pythonCode/hobbit-tray/Original/purple.gif
+* pythonCode/hobbit-tray/Original/red-ack.gif
+* pythonCode/hobbit-tray/Original/red-recent.gif
+* pythonCode/hobbit-tray/Original/red.gif
+* pythonCode/hobbit-tray/Original/unknown-recent.gif
+* pythonCode/hobbit-tray/Original/unknown.gif
+* pythonCode/hobbit-tray/Original/yellow-ack.gif
+* pythonCode/hobbit-tray/Original/yellow-recent.gif
+* pythonCode/hobbit-tray/Original/yellow.gif
+* pythonCode/hobbit-tray/Original/zoom.gif
+* pythonCode/hobbit-tray/cruiseTrayIcon.config
+* pythonCode/hobbit-tray/cruiseTrayIcon.py
+* pythonCode/hobbit-tray/green.png
+* pythonCode/hobbit-tray/hobbit-tray.py
+* pythonCode/hobbit-tray/hobbittray.config
+* pythonCode/hobbit-tray/purple.png
+* pythonCode/hobbit-tray/red.png
+* pythonCode/hobbit-tray/temp/
+* pythonCode/hobbit-tray/temp/config.py
+* pythonCode/hobbit-tray/temp/hobbit-tray.py
+* pythonCode/hobbit-tray/temp/test.py
+* pythonCode/hobbit-tray/temp/trayicon.py
+* pythonCode/hobbit-tray/unknown.png
+* pythonCode/hobbit-tray/yellow.png
+* pythonCode/programIcon.odg
+* pythonCode/programIcon.png
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* AndroidManifest.xml => app/src/main/AndroidManifest.xml
+* assets/ => app/src/main/assets
+* res/ => app/src/main/res/
+* src/ => app/src/main/java/
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)

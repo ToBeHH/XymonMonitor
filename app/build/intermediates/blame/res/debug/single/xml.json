@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/media/tobias/TSH/Private/StudioProjects/XymonMonitor/app/build/intermediates/res/merged/debug/xml/appwidget_info.xml",
+        "source": "/media/tobias/TSH/Private/StudioProjects/XymonMonitor/app/src/main/res/xml/appwidget_info.xml"
+    },
+    {
+        "merged": "/media/tobias/TSH/Private/StudioProjects/XymonMonitor/app/build/intermediates/res/merged/debug/xml/settings.xml",
+        "source": "/media/tobias/TSH/Private/StudioProjects/XymonMonitor/app/src/main/res/xml/settings.xml"
+    }
+]

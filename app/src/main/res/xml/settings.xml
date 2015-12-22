@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+
+	<EditTextPreference
+		android:key="serverUrl"
+		android:title="@string/settings_serverUrl_title"
+		android:summary="@string/settings_serverUrl_summary"
+		android:persistent="true"	
+	/>
+	
+	<EditTextPreference
+		android:key="username"
+		android:title="@string/settings_username_title"
+		android:summary="@string/settings_username_summary"
+		android:persistent="true"	
+	/>
+	
+	<EditTextPreference
+		android:key="password"
+		android:title="@string/settings_password_title"
+		android:summary="@string/settings_password_summary"
+		android:persistent="true"	
+	/>
+	
+	<EditTextPreference
+		android:key="updateInterval"
+		android:title="@string/settings_updateInterval_title"
+		android:summary="@string/settings_updateInterval_summary"
+		android:persistent="true"	
+	/>
+	
+	<CheckBoxPreference
+		android:key="wifionly"
+		android:title="@string/settings_wifionly_title"
+		android:summary="@string/settings_wifionly_summary"
+		android:persistent="true"	
+	/>
+	
+	<CheckBoxPreference
+		android:key="vibrate"
+		android:title="@string/settings_vibrate_title"
+		android:summary="@string/settings_vibrate_summary"
+		android:persistent="true"	
+	/>
+	
+	<CheckBoxPreference
+		android:key="keepScreenOn"
+		android:title="@string/settings_keepScreenOn_title"
+		android:summary="@string/settings_keepScreenOn_summary"
+		android:persistent="true"
+		android:defaultValue="true"	
+	/>
+	
+	<CheckBoxPreference
+		android:key="statusUpdate"
+		android:title="@string/settings_statusUpdate_title"
+		android:summary="@string/settings_statusUpdate_summary"
+		android:persistent="true"
+		android:defaultValue="true"	
+	/>
+	
+
+</PreferenceScreen>

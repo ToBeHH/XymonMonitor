@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/mainView"
+    >
+<TextView  
+	android:id="@+id/TextViewHeadline" 
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="@string/status_updating" 
+    android:typeface="normal" android:singleLine="false" android:gravity="center" android:textSize="20px"
+    android:textColor="#000000"
+    />
+<DigitalClock android:text="DigitalClock01" android:id="@+id/DigitalClock" android:layout_height="wrap_content" android:clickable="false" android:layout_width="fill_parent" android:gravity="center" 
+	android:textColor="#000000"
+	android:textSize="48px">
+</DigitalClock>
+<TextView 
+	android:text="@string/status_updating" 
+	android:id="@+id/TextViewDetail" 
+	android:layout_height="wrap_content" 
+	android:gravity="center" 
+	android:layout_width="fill_parent" 
+	android:singleLine="false"
+	android:lineSpacingMultiplier="1.4" 
+	android:textSize="14px"
+	android:textColor="#000000"
+	></TextView>
+</LinearLayout>
