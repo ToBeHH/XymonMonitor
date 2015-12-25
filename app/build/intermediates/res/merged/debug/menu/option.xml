@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<menu
-  xmlns:android="http://schemas.android.com/apk/res/android">
-	<item android:id="@+id/prefs" android:title="@string/menu_prefs" android:icon="@android:drawable/ic_menu_preferences"/>
-	<item android:id="@+id/browser" android:title="@string/menu_browser" android:icon="@android:drawable/ic_menu_zoom"/>
-	<item android:id="@+id/pause" android:title="@string/menu_pause" android:icon="@android:drawable/ic_media_pause"/>
-	<item android:id="@+id/about" android:title="@string/menu_about" android:icon="@android:drawable/ic_menu_info_details"/>
-</menu>
