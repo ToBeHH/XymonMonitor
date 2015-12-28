@@ -1,0 +1,3 @@
+XyMon Monitor shows the current status of your XyMon.
+XyMon, formerly known as Hobbit, is an open source monitoring application, which is available at http://www.xymon.com
+The XyMon Monitor vibrates on status changes. You can choose, if you want to update only if you are connected via a WiFi network. A widget is available.
