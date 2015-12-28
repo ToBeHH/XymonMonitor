@@ -5,7 +5,7 @@ android {
     buildToolsVersion "23.0.2"
 
     defaultConfig {
-        applicationId "de.dotknowledge.xymon"
+        applicationId "de.schulzhess.xymon"
         minSdkVersion 12
         targetSdkVersion 23
     }
