@@ -22,6 +22,7 @@
 	<string name="error_nourl">Please enter a valid XyMon URL via the settings.</string>
 	<string name="error_invalidurl">The URL you entered does not seem to be a valid XyMon URL. Please check your URL via the settings.</string>
 	<string name="error_nowifinetwork">No WiFi-Network available. To enable updates via your 3G network, disable the Option "Update only via WiFi?" in the settings menu.</string>
+	<string name="error_password">The password contains illigal characters.</string>
 	<string name="settings_serverUrl_title">XyMon URL</string>
 	<string name="settings_serverUrl_summary">URL for the XyMon monitor</string>
 	<string name="settings_username_title">Username</string>

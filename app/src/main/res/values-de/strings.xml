@@ -22,6 +22,7 @@
 	<string name="error_nourl">Bitte geben Sie eine gültige XyMon URL in den Einstellungen ein.</string>
 	<string name="error_invalidurl">Die eingegebene Adresse sieht nicht nach einer gültigen XyMon URL aus. Bitte prüfen Sie Ihre Eingabe in den Einstellungen.</string>
 	<string name="error_nowifinetwork">Kein WiFi-Netzwerk verfügbar. Um auch Updates über UMTS zuzulassen, deaktivieren Sie die Option "Nur über WiFi" in den Einstellungen.</string>
+	<string name="error_password">Das Passwort enthält ungültige Zeichen.</string>
 	<string name="settings_serverUrl_title">XyMon URL</string>
 	<string name="settings_serverUrl_summary">URL für Ihren XyMon-Monitor</string>
 	<string name="settings_username_title">Benutzername</string>
