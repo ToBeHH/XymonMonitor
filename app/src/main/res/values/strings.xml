@@ -31,6 +31,8 @@
 	<string name="settings_password_summary">password for a http auth challenge</string>
 	<string name="settings_updateInterval_title">Update interval</string>
 	<string name="settings_updateInterval_summary">Time between updates given in seconds</string>
+	<string name="settings_selfsigned_title">Self signed certificate?</string>
+	<string name="settings_selfsigned_summary">Ignore certificate check for a self signed certificate?</string>
 	<string name="settings_wifionly_title">Update only via WiFi?</string>
 	<string name="settings_wifionly_summary">Make updates only when connected via a WiFi network</string>
 	<string name="settings_vibrate_title">Vibrate on status changes?</string>

@@ -29,7 +29,14 @@
 		android:summary="@string/settings_updateInterval_summary"
 		android:persistent="true"	
 	/>
-	
+
+	<CheckBoxPreference
+		android:key="selfsigned"
+		android:title="@string/settings_selfsigned_title"
+		android:summary="@string/settings_selfsigned_summary"
+		android:persistent="true"
+		/>
+
 	<CheckBoxPreference
 		android:key="wifionly"
 		android:title="@string/settings_wifionly_title"

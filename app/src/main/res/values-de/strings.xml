@@ -31,6 +31,8 @@
 	<string name="settings_password_summary">Passwort für eine HTTP-Auth-Sicherung</string>
 	<string name="settings_updateInterval_title">Aktualisierungs-Intervall</string>
 	<string name="settings_updateInterval_summary">Zeit zwischen Aktualisierungen in Sekunden</string>
+	<string name="settings_selfsigned_title">Selbst ausgestelltes Zertifikat?</string>
+	<string name="settings_selfsigned_summary">Ignoriere alle Zertifikatsprüfungen für selbst ausgestellte Zertifikate?</string>
 	<string name="settings_wifionly_title">Nur über WiFi?</string>
 	<string name="settings_wifionly_summary">Aktualisierungen werden nur abgefragt, wenn Sie mit einem WiFi-Netz verbunden sind</string>
 	<string name="settings_vibrate_title">Bei Statusänderungen vibrieren?</string>
