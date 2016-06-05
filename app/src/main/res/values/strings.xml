@@ -24,7 +24,7 @@
 	<string name="error_nowifinetwork">No WiFi-Network available. To enable updates via your 3G network, disable the Option "Update only via WiFi?" in the settings menu.</string>
 	<string name="error_password">The password contains illigal characters.</string>
 	<string name="settings_serverUrl_title">XyMon URL</string>
-	<string name="settings_serverUrl_summary">URL for the XyMon monitor</string>
+	<string name="settings_serverUrl_summary">URL for the XyMon monitor for the nongreen.html or bb2.html site (including nongreen.html)</string>
 	<string name="settings_username_title">Username</string>
 	<string name="settings_username_summary">Username for a http auth challenge</string>
 	<string name="settings_password_title">Password</string>
