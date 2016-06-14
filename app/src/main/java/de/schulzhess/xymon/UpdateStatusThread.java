@@ -36,6 +36,8 @@ public class UpdateStatusThread extends Thread {
     private static final int DEFAULT_BUFFER_SIZE = 1024;
     protected static Pattern COLOR_PATTERN = Pattern
             .compile("BODY BGCOLOR=\"([^\"]+)\" BACKGROUND");
+    protected static Pattern COLOR_PATTERN2 = Pattern
+            .compile("BODY class=\"([^\"]+)\"");
 
     protected static Pattern NAME_PATTERN = Pattern
             .compile("A NAME=\"([^\"]+)\"");
@@ -211,9 +213,14 @@ public class UpdateStatusThread extends Thread {
             if (colorMatcher.find()) {
                 result.overallStatus = colorMatcher.group(1);
             } else {
-                result.detailedStatus = mainThread.getString(R.string.error_invalidurl);
-                result.lastChecked = new Date();
-                return result;
+                colorMatcher = COLOR_PATTERN2.matcher(data);
+                if (colorMatcher.find()) {
+                    result.overallStatus = colorMatcher.group(1);
+                } else {
+                    result.detailedStatus = mainThread.getString(R.string.error_invalidurl);
+                    result.lastChecked = new Date();
+                    return result;
+                }
             }
             lastChecked = new Date();
 
@@ -253,6 +260,10 @@ public class UpdateStatusThread extends Thread {
             Log.e(XymonStatus.TAG, "Exception while loading data from URL", e);
             result.overallStatus = XymonStatus.EXCEPTION;
             result.detailedStatus = e.getLocalizedMessage();
+        } catch (Exception e) {
+            Log.e(XymonStatus.TAG, "Exception while parsing data from URL", e);
+            result.overallStatus = XymonStatus.EXCEPTION;
+            result.detailedStatus = e.getLocalizedMessage();
         } finally {
             if (urlConnection != null) {
                 urlConnection.disconnect();
@@ -260,6 +271,7 @@ public class UpdateStatusThread extends Thread {
         }
 
         result.lastChecked = new Date();
+        Log.d(XymonStatus.TAG, "Got new status: " + result.toString());
         return result;
     }
 

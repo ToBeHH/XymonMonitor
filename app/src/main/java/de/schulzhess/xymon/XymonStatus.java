@@ -2,6 +2,7 @@ package de.schulzhess.xymon;
 
 import java.text.DateFormat;
 import java.util.Date;
+import java.util.Locale;
 
 import android.content.ContentProvider;
 import android.content.ContentValues;
@@ -31,9 +32,13 @@ public class XymonStatus extends ContentProvider {
 	public static final Uri CONTENT_URI = Uri
 			.parse("content://de.schulzhess.xymon.status");
 
+    /**
+     * Update the view with the current status.
+     * @param view The view to update
+     */
 	public void updateStatus(View view) {
-		DateFormat dateFormat = DateFormat.getDateInstance(DateFormat.LONG);
-		DateFormat timeFormat = DateFormat.getTimeInstance(DateFormat.MEDIUM);
+		DateFormat dateFormat = DateFormat.getDateInstance(DateFormat.LONG, Locale.getDefault());
+		DateFormat timeFormat = android.text.format.DateFormat.getTimeFormat(view.getContext());
 		String statusText = dateFormat.format(lastChecked) + "\n";
 
 		if (GREEN.equalsIgnoreCase(overallStatus)) {
@@ -59,7 +64,7 @@ public class XymonStatus extends ContentProvider {
 		} else {
 			statusText = statusText
 					+ view.getContext().getString(R.string.status_unknown);
-			view.setBackgroundColor(0xFF000000);
+			view.setBackgroundColor(0xFF555555);
 		}
 
 		statusText = statusText.replace("###", timeFormat.format(lastChecked));
@@ -71,6 +76,20 @@ public class XymonStatus extends ContentProvider {
 		details.setText(detailedStatus);
 	}
 
+	/**
+	 * String representation of this class.
+	 * @return The current status
+     */
+	@Override
+	public String toString() {
+		DateFormat dateFormat = DateFormat.getDateTimeInstance(DateFormat.LONG, DateFormat.MEDIUM, Locale.getDefault());
+		return "Status: " + overallStatus + ", last checked: " + dateFormat.format(lastChecked);
+	}
+
+    /**
+     * Get the icon for the current status.
+     * @return Reference to the icon for the current status.
+     */
 	public int getStatusIcon() {
 		if (GREEN.equalsIgnoreCase(overallStatus)) {
 			return R.drawable.greenball;
@@ -85,6 +104,11 @@ public class XymonStatus extends ContentProvider {
 		}
 	}
 
+    /**
+     * Check, if the status is a status color (red, yellow, green)
+     * @param status The status to check
+     * @return True if it a status color, false otherwise
+     */
 	public static boolean isColor(String status) {
 		return RED.equalsIgnoreCase(status) || YELLOW.equalsIgnoreCase(status)
 				|| GREEN.equalsIgnoreCase(status);
