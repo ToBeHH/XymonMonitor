@@ -8,6 +8,8 @@ android {
         applicationId "de.schulzhess.xymon"
         targetSdkVersion 26
         minSdkVersion 14
+        // Enabling multidex support.
+        multiDexEnabled true
     }
 
     buildTypes {
@@ -20,4 +22,5 @@ android {
 
 dependencies {
     compile 'com.android.support:support-v4:26.0.0'
+    compile 'com.android.support:multidex:1.0.0'
 }
