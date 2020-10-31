@@ -1,12 +1,12 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 26
+    compileSdkVersion 29
     buildToolsVersion "23.0.2"
 
     defaultConfig {
         applicationId "de.schulzhess.xymon"
-        targetSdkVersion 26
+        targetSdkVersion 29
         minSdkVersion 14
         // Enabling multidex support.
         multiDexEnabled true
@@ -21,6 +21,6 @@ android {
 }
 
 dependencies {
-    compile 'com.android.support:support-v4:26.0.0'
+    compile 'com.android.support:support-v4:28.0.0'
     compile 'com.android.support:multidex:1.0.0'
 }
